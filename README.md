@@ -57,9 +57,7 @@ X entries in the assignment's table are encoded as 0.
 
 ### Timing or Behavioral Summary
 
-![Control timing diagram](images/decode_control_output.png)
-
-![Read data timing diagram](images/decode_readdat_output.png)
+![Control timing diagram](images/image.png)
 
 ## Implementation
 
