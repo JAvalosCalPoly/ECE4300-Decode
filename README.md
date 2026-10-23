@@ -129,7 +129,7 @@ Values are the ID/EX latch outputs.
 `decode.v` includes its submodules with `` `include "src/..." ``. Run these commands from the folder that contains `src/`, and pass only `decode.v` and the testbench to `iverilog`; listing the submodule files as well declares them twice.
 
 ```bash
-iverilog -o decodeTB decode.v if_stage_tb.v && vvp decodeTB.vvp && gtkwave decodeTB.gtkw
+iverilog -o decodeTB decode.v if_stage_tb.v && vvp decodeTB.vvp && gtkwave decodeTB
 ```
 ## Repository Organization
 
